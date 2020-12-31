@@ -38,7 +38,7 @@ def killer():
         file.write(str(line)+"\n")
     file.close()
 
-keyboard.add_hotkey('ctrl+shift+s', killer)
+keyboard.add_hotkey('ctrl+shift+s', killer) # press control + shift + s to kill program
  
 with arduino:
     while True:
